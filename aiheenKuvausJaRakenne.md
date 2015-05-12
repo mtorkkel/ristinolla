@@ -1,6 +1,6 @@
-Aihe: ilmoittautumisjärjestelmä Toteutetaan järjestelmä, jonka avulla ylläpidetään tietojenkäsittelylaitoksen kurssitietoja sekä tietoja kursseille ilmoittautuneista opiskelijoista... [lisää tekstiä 1-2 tekstikappaleen verran]
+Aihe: ristinolla. Toteutetaan ristinolla, joka on kolme kertaa kolme ruudukossa. Merkit ovat perinteisesti risti ja nolla. Pelaajan tulee saada kolme omaa pelimerkkiä peräkkäin joko vaakatasossa, pystyssä tai vinoittain ruudukossa. Pelaajia on siis kaksi.
 
-Käyttäjät: Opiskelija ja Opetushallinto
+Käyttäjät: Kaksi pelaajaa.
 
 Kaikkien käyttäjien toiminnot:
 
