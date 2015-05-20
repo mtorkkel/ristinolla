@@ -1,41 +1,42 @@
+package javalabra.ristinolla;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
 
-import javalabra.ristinolla.Pelialusta;
 import org.junit.After;
 import org.junit.AfterClass;
-import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
+import static org.junit.Assert.*;
 
 /**
  *
  * @author mtorkkel
  */
-public class PelialustaTest {
-
-    Pelialusta pelialusta;
-
-    public PelialustaTest() {
+public class PelaajaTest {
+    
+   
+    
+    public PelaajaTest() {
     }
-
+    
     @BeforeClass
     public static void setUpClass() {
     }
-
+    
     @AfterClass
     public static void tearDownClass() {
     }
-
+    
     @Before
     public void setUp() {
-        pelialusta = new Pelialusta();
+       
     }
-
+    
     @After
     public void tearDown() {
     }
@@ -45,17 +46,4 @@ public class PelialustaTest {
     //
     // @Test
     // public void hello() {}
-    
-    @Test
-    public void tyhjentaaPelialustan() {
-        pelialusta.tyhjennaPelialusta();
-        assertEquals("Pelialustan ruuduissa on 0", pelialusta.tyhjennaPelialusta());
-    }
-
-    @Test
-    public void nayttaaArvon() {
-        pelialusta.naytaArvo(arvo);
-        assertEquals("Ruudussa on 0, X tai O.", pelialusta.naytaArvo(arvo));
-
-    }
 }

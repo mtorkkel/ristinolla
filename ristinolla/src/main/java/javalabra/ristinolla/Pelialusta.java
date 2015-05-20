@@ -46,16 +46,16 @@ public class Pelialusta {
         }
     }
 
-    public int naytaArvo(int[] arvo) {
-        return Pelialusta[arvo[0]][arvo[1]]; 
+    public int naytaArvo(int rivi, int sarake) {
+        return Pelialusta[rivi][sarake]; 
 //        rivi on nolla ja sarake on yksi
     }
 
-    public void asetaArvo(int[] arvo, int pelaaja) {
+    public void asetaArvo(int rivi, int sarake, int pelaaja) {
         if (pelaaja == 1) {
-            Pelialusta[arvo[0]][arvo[1]] = -1;
+            Pelialusta[rivi][sarake] = -1;
         } else {
-            Pelialusta[arvo[0]][arvo[1]] = 1;
+            Pelialusta[rivi][sarake] = 1;
         }
     }
 
